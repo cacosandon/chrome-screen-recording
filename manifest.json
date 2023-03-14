@@ -1,0 +1,19 @@
+{
+  "name": "Window Recording",
+  "description": "Minimal example for recording any screen/window in manifest V3, allowing redirection on current tab",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action":{
+    "default_popup":"popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches":["<all_urls>"],
+      "js":["content.js"]
+    }
+  ],
+  "permissions": ["tabs", "activeTab", "desktopCapture"]
+}
