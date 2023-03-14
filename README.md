@@ -1,11 +1,11 @@
-<div style="text-align: center; margin-bottom: 24px">
+<div align="center" style="margin-bottom: 24px">
   <img src="readme/logo.png" width="40px">
-  <div style="font-size:36px" align="center">Wireworks</div>
-  <div style="font-size:14px" align="center">Share progress. Get feedback.</div>
+  <h3 align="center">Wireworks</h3>
+  <p align="center">Share progress. Get feedback.</p>
 </div>
 
 <div style="text-align: center; margin-bottom: 24px">
-  <video width="600px" src="readme/demo.mov"></video>
+  <video width="600px" src="https://user-images.githubusercontent.com/30879716/225107330-180848bd-216a-4084-bfa9-b48fb7bd5f7b.mov"></video>
 </div>
 
 #
