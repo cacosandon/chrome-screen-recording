@@ -8,7 +8,7 @@ This repository provides a minimal example of how to create a Chrome extension t
 
 This functionality was previously only achievable with the deprecated manifest v2, making this an example implementation using manifest v3.
 
-## What is being solved
+## Some issues that motivated this repo
 
 - Screen recording is not possible using the new offscreen API in Manifest V3, as discussed in [this Stack Overflow post](https://stackoverflow.com/questions/74773408/chrome-tabcapture-unavailable-in-mv3s-new-offscreen-api).
 - Previous methods of screen recording, such as `chrome.desktopCapture.chooseDesktopMedia()`, no longer work in Manifest V3, as discussed in [this Stack Overflow post](https://stackoverflow.com/questions/30906689/capture-screen-chrome-desktopcapture-choosedesktopmedia-fails-pnacl-extens) and [this GitHub issue](https://github.com/GoogleChrome/chrome-extensions-samples/issues/627).
