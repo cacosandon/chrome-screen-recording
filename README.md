@@ -6,7 +6,7 @@
 
 This repository provides a minimal example of how to create a Chrome extension that records the user's screen allowing navigation or URL changes on the current tab.
 
-This functionality is only possible using the deprecated Manifest V2, so we provide an example that uses Manifest V3.
+This functionality was previously only achievable with the deprecated manifest v2, making this an example implementation using manifest v3.
 
 ## What is being solved
 
